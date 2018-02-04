@@ -14,12 +14,6 @@ var ContactForm = React.createClass({
 		        <button type={'submit'}>Dodaj kontakt</button>
 		    </form>
 
-
-
-
-
-
-
 /*
 
 			React.createElement('form', {className: 'contactForm'},
@@ -41,6 +35,6 @@ var ContactForm = React.createClass({
 				}),
 				React.createElement('button', {type: 'submit'}, "Dodaj kontakt")
 			)*/
-		)
+		);
 	}
 });

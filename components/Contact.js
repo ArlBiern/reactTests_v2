@@ -23,6 +23,6 @@ var Contact = React.createClass({
 				React.createElement('p', {className: 'contactLabel', href: "mailto:" + this.props.item.email}, this.props.item.email)
 			)
 			*/
-		)
-	},
+		);
+	}
 });
