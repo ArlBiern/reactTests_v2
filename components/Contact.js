@@ -6,11 +6,11 @@ var Contact = React.createClass({
 	render: function() {
 		return (
 			<div className={'contactItem'}>
-				<img className={'contactImage'} src={'http://icons.veryicon.com/ico/System/100%20Flat%20Vol.%202/contacts.ico'}></img>
-				<p className={'contactLabel'}>Imię: + (this.props.item.firstName}</p>
-				<p className={'contactLabel'}>Nazwisko:  + {this.props.item.lastName}</p>
-				<p className={'contactLabel'} href={"mailto:" + this.props.item.email}>{this.props.item.email}</p>
-			</div>
+		        <img className={'contactImage'} src={'http://icons.veryicon.com/ico/System/100%20Flat%20Vol.%202/contacts.ico'}/>
+		        <p className={'contactLabel'}>Imię: {this.props.item.firstName}</p>
+		        <p className={'contactLabel'}>Nazwisko: {this.props.item.lastName}</p>
+		        <p className={'contactLabel'} href={"mailto:" + this.props.item.email}>{this.props.item.email}</p>
+		    </div>
 
 			/*
 			React.createElement('div', {className: "contactItem"},
