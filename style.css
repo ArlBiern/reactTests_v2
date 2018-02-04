@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ddd;
+}
+
+#app {
+	width: 700px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	background-color: #ccc;
+	padding: 20px;
+}
+
+input {
+	width: 140px;
+	height: 25px;
+	margin: 5px;
+}
+.email {
+	width: 230px;
+}
+
+button {
+	display: block;
+	margin: 0 auto;
+	height: 30px;
+	margin-top: 15px;
+	width: 140px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+h1, h2, p {
+	text-align: center;
+	margin: 15px;
+}
+
+.contactLabel:first-of-type {
+	padding-top: 30px;
+}
+
+
+.contactForm {
+	background-color: #333;
+	width: 90%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.contactsList {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #aaa;
+	padding: 20px;
+}
+
+.contactItem {
+	width: 90%;
+	height: 150px;
+	background-color: #ddd;
+	margin: 0 auto;
+	margin-bottom: 20px;
+
+}
+
+.contactImage {
+	height: 100px;
+	width: auto;
+	float: left;
+	margin: 25px;
+}
